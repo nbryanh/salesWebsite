@@ -1,4 +1,5 @@
 
+
 // Get the modal
 var loginModal = document.getElementById('id01');
 var registerModal = document.getElementById('id02');
@@ -18,3 +19,4 @@ window.onclick = function(event) {
         homePage.style.display = "none";
     }
 }
+

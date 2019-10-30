@@ -1,3 +1,4 @@
+
 <!DOCTYPE html> 
 <html> 
   <head>
@@ -18,7 +19,18 @@
 	         <input class='search-bar' type='text'  placeholder='Search...' name='query' style = "width:50%; height:35px;")/>
 		 <input class="search-btn" type="submit" name="search" value="Search"/>
 	</form>
-
+        <div id="id05" class="registerModal">
+        	<form class="registerModal-content animate" action="register.php" method="post">
+			<p>hello this is search result.</p>
+		        <div class="container">
+				<ol>
+					<li> <?php
+						error_reporting(0);
+						echo $_POST['result']; ?>
+			                </li>
+				</ol>		
+            		</div>
+	</div>
         </form>
 
 	
@@ -41,8 +53,7 @@
 			<img id='image'class='card-img-top' src='inteli5.jpg' alt='intel i5' style='width:100%'>
 			<div class='card-body'>
 			<h5 class='card-title'>Intel i5</h5>
-
-		<p><button onclick="document.getElementById('it01').style.display='block'">View Item</button></p>
+			<p><button onclick="document.getElementById('it01').style.display='block'">View Item</button></p>
 			</div>
 		</div>
 		</div>
@@ -50,7 +61,6 @@
       <div class='card' style='width: 18rem;'>
 			<img id='image'class='card-img-top' src='inteli5.jpg' alt='intel i5' style='width:100%'>
 			<div class='card-body'>
-
 			<h5 class='card-title'>Intel i5</h5>
 			<p><button onclick="document.getElementById('it01').style.display='block'">View Item</button></p>
 			</div>
@@ -174,10 +184,8 @@
 			<img id='image'class='card-img-top' src='inteli5.jpg' alt='intel i5' style='width:100%'>
 			<div class='card-body'>
 			<h5 class='card-title'>Intel i5</h5>
-			<p class='card-text'>
-				With intelligent performance that accelerates in response to demanding tasks..</p>
+			<p class='card-text'>With intelligent performance that accelerates in response to demanding tasks..</p>
 			<p><button onclick="document.getElementById('it01').style.display='block'">View Item</button></p>
-
 			</div>
 		</div>
 	</div>

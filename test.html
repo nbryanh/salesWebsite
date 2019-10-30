@@ -1,0 +1,26 @@
+<doctype html>
+<html>
+<body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+<button type="button" onclick ="foo()" >Click Me</button>
+
+<script type="text/javascript">
+
+function foo () {
+      $.ajax({
+        url:"test.php", //the page containing php script
+        type: "POST", //request type
+        success:function(result){
+         alert(result);
+       }
+     });
+ }
+
+</script>
+
+</body>
+</html>
