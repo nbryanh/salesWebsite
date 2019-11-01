@@ -1,0 +1,293 @@
+/*change font and make fit the whole screen*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/*background of the header*/
+header {
+  padding: 30px;
+  background: rgb(51, 56, 52);
+}
+
+/*change title font, color, and position*/
+.title{
+  font-size: 30px;
+  color: rgb(11, 250, 11);
+  margin-left: 5px;
+}
+
+/*change search bar/button design and animation*/
+.search-bar{
+  width:50%;
+  height:35px;
+}
+.search-btn{
+  height: 32px;
+  width: 70px;
+  color: rgb(11, 250, 11);
+
+}
+.search-btn:hover{
+  background-color: lightgrey;
+  color: red;
+}
+
+/*change cart and order button design, animation and position*/
+.personal{
+  height: 32px;
+  width: 70px;
+  color: rgb(11, 250, 11);
+  float: right;
+}
+.personal:hover{
+  background-color: lightgrey;
+  color: red;
+}
+
+/*change footer background*/
+footer{
+  color: white;
+  background-color: darkgray;
+  float: left;
+    padding: 20px;
+    width: 100%;
+}
+
+/*change footer text position*/
+.footer-text{
+  margin-left:15px;
+  text-align: left;
+}
+.help{
+  margin:300px;
+  padding-left:900px;
+}
+
+/*format follow page size*/
+#main {
+    overflow: auto;
+    width: 100%;
+}
+
+/*change nav design*/
+nav {
+  overflow: auto;
+  background-color: #e9e9e9;
+}
+nav a {
+  float: left;
+  display: block;
+  color: rgb(11, 250, 11);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+nav a:hover {
+  background-color: lightgrey;
+  color: red;
+}
+
+/* Float five columns side by side */
+.column {
+  float: left;
+  width: auto;
+  padding: 0 10px;
+  height: 400px;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+	margin: 10px;
+	height: auto;
+}
+
+/* Style the counter cards */
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card{
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 5%;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.image{
+  width: 50%;
+}
+
+/* Center the image and position the close button */
+.container {
+  color: white;
+  background-color: gray;
+  float: left;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+.item{
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+
+.button{
+  height: 32px;
+  width: 70px;
+  color: rgb(11, 250, 11);
+
+}
+.button:hover{
+  background-color: lightgrey;
+  color: red;
+}
+
+body {background: #ececec;}
+h1,h4 {
+  border-bottom: 3px solid #ccc;
+  color: red;
+  padding-bottom: 8px
+}
+.profilecontainer {
+  margin: auto;
+  width: 350px;
+  text-align: center;
+}
+
+/* id01 Set a style for all buttons */
+.login {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+#login{
+	float: right;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
